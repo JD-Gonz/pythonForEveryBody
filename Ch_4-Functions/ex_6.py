@@ -1,5 +1,6 @@
 # Exercise 6: Rewrite your pay computation with time-and-a-half for overtime 
 # and create a function called computepay which takes two parameters (hours and rate).
+
 def computepay(hours, rate) :
     pay = hours * rate
     if hours > 40 :
