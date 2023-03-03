@@ -13,7 +13,7 @@ while True :
         else :
             print("Invalid input")
             continue
-    if min == None  :
+    if min is None  :
         min = num
         max = num
     elif min > num :
