@@ -5,6 +5,7 @@
 # pull apart the line to extract the floating-point number on the line. 
 # Count these lines and then compute the total of the spam confidence values from these lines. 
 # When you reach the end of the file, print out the average spam confidence.
+
 fname = input("Enter file name: ")
 fh = open(fname)
 count = 0
